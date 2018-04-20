@@ -65,7 +65,7 @@ class NumberToStringServiceSpec extends WordSpec with Matchers {
       NumberToStringService.numberToString(2000) shouldBe "two thousand"
     }
     "return 'three thousand and 8' for 3008" in {
-      NumberToStringService.numberToString(3008) shouldBe "three thousand and 8"
+      NumberToStringService.numberToString(3008) shouldBe "three thousand and eight"
     }
     "return 'four thousand and ninety four' for 4094" in {
       NumberToStringService.numberToString(4094) shouldBe "four thousand and ninety four"
